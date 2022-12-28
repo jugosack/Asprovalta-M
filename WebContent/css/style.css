@@ -1,0 +1,829 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&family=Rochester&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap')
+	;
+
+.navbar {
+	height: 100px;
+}
+
+.nav-link {
+	fontsize: 14px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: #1270FD !important;
+}
+
+.nav-link:hover {
+	color: #d82126 !important;;
+}
+
+.dropdown-item {
+	fontsize: 14px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: #1270FD !important;
+}
+
+.dropdown-item:hover {
+	color: #d82126 !important;;
+}
+
+.btn {
+	margin: 20px 0px 0px 10px;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 10px;
+	background: transparent;
+	color: white;
+	font-family: 'Roboto Serif', serif;
+}
+
+.check-out {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: white;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.check-in {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: white;
+	padding: 0px 0px 0px 0px;
+}
+
+.children {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: white;
+	padding: 0px 0px 0px 0px;
+}
+
+.adults {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: white;
+	padding: 0px 0px 0px 0px;
+}
+
+#adults {
+	font-family: 'Roboto Serif', serif;
+	font-size: 15px;
+	color: white;
+	background: transparent;
+}
+
+#children {
+	font-family: 'Roboto Serif', serif;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	background: transparent;
+}
+
+#check-in::placeholder {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: black;
+}
+
+#check-in {
+	width: 200px;
+	color: white;
+	background: transparent;
+}
+
+#check-out::placeholder {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: black;
+}
+
+#check-out {
+	width: 200px;
+	color: white;
+	background: transparent;
+}
+
+.p_2 {
+	font-family: 'Rochester', cursive;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	/*Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #feffff;
+	font-size: 110px;
+	text-align: center;
+	margin: 250px 0px 0px 0px;
+}
+
+.p_1 {
+	font-family: 'Roboto Serif', serif;
+	font-size: 12px;
+	color: white;
+	margin: 0px 0px 0px 0px;
+}
+
+.hero {
+	background-image: url(../img/Naslovna.jpg);
+	backgroud-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.middle_0 {
+	
+}
+
+.middle_1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin: 100px 0px 0px 0px;*/
+	/*height: 50vh;*/
+	width: 100%;
+}
+
+.middle_2 {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: 50px 0px 0px 0px;
+	/*height: 50vh;*/
+	width: 100%;
+}
+
+.middle_3 {
+	margin: 0px 0px 0px 560px;
+	
+}
+
+.emtel_0 {
+	margin: 0px 0px 0px 450px;
+}
+
+.emtel_1 {
+	margin: 0px 0px 0px 10px;
+}
+
+.emtel_2 {
+	margin: 0px 0px 0px 50px;
+}
+
+.emtel_3 {
+	margin: 0px 0px 0px 10px;
+}
+
+.mi {
+	color: #d82126;
+	margin: 7px 0px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.pozadina_1 {
+	background-image: url(../img/spalna1.jpg);
+	color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	height: 450px;
+	width: 48%;
+	margin: 10px 10px 10px 25px;
+	/*border: 2px solid red;*/
+	border: 2px solid;
+	border-radius: 10px;
+	box-shadow: 6px 8px 8px rgba(0, 0, 227, 0.4) !important; 
+}
+.pozadina_2 {
+	background-image : url(../img/spalna2.jpg);
+	color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: right;
+	height: 450px;
+	width: 48%;
+	margin: 10px 25px 10px 10px;
+	border: 2px solid;
+	border-radius: 10px;
+	box-shadow: 6px 8px 8px rgba(0, 0, 227, 0.4) !important;
+}
+
+.kopce {
+	border-radius: 20px;
+	background: rgba(216,33,38, 0.4);
+	display: block;
+	margin: 150px 0px 0px 350px;
+	font-family: 'Roboto Serif', serif;
+	font-size: 15px;
+	height: 40px;
+	width: 110px;
+	text-align: center;
+}
+
+.p2s{
+	background-color:rgba(0, 0, 227, 0.4);
+	width:194px;
+}
+.p2a{
+	background-color:rgba(0, 0, 227, 0.4);
+	width:194px;
+	margin-left:700px;
+}
+
+#topBtn{
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+/*
+.scroll_to_bottom{
+	position: relative;
+	/*top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);	*/
+/*	
+	
+}
+.scroll_to_bottom span{
+	display:block;
+	width:20px;
+	height:20px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.scroll_to_bottom span:nth-child(1){ animation-delay: .2s; }
+.scroll_to_bottom span:nth-child(2){ animation-delay: .4s; }
+
+@keyframes animate
+{
+	0%{
+	opacity:0;
+	transform: rotate(45deg)translate (-20px,-20px);
+	}
+	50% 
+	{
+	opacity:1;
+	}
+	100%
+	{
+	opacity:0;
+	transform: rotate(45deg)translate (20px,20px);
+	}
+}
+*/
+
+/* START : Footer */
+.full-footer {
+	background-color: white;
+}
+
+.top-footer p {
+	color: #243c4f;
+}
+
+.top-footer a {
+	color: #243c4f;
+	font-weight: 600;
+}
+
+.top-footer h3 {
+	color: #1270FD;
+}
+
+.bottom-footer {
+	background-color: #031b2e;
+}
+
+.bottom-footer p {
+	color: white;
+}
+
+.p_3 {
+	text-align: right;
+}
+
+.p_4 {
+	text-align: justify;
+	margin-right: 50px;
+}
+
+/* END : Footer */
+
+/*Google API CSS*/
+ .no-min-height{
+    min-height: auto !important;
+}
+
+.review-popup{
+    
+    box-shadow: -1px 0px 5px 0 rgba(0,0,0,.5)!important;
+}
+.popup-header-close{
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+.popup-header{
+    background: rgba(255,255,255,.10)!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden!important;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.12)!important;
+    flex-basis: 120px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  
+    
+}
+.popup-header-name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review-popup{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.popup-body{
+    padding: 20px;
+    overflow: auto;
+}
+.popup-body > .columns{
+    padding: 0px !important;
+}
+.poup-author-info.columns{
+    padding: 0px !important;
+    margin-top: 40px !important;
+}
+.invisible-container{
+    display: none !important;
+}
+
+.df-padding{
+    padding: 20px;
+    position: relative;
+}
+#review-icon{
+    width: 220px !important;
+    background-color: rgba(255,255,255,.10);
+    border-top: 5px solid #4fce6a;
+    border-radius: 2px  !important;
+    border-radius: 2px 2px 0 0!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26)!important;
+}
+#review-icon.columns, #review-icon .columns{
+    padding: 0px !important;
+}
+#review-icon p{
+
+    text-align: left
+}
+#review-icon .star-rating{
+    display: flex !important;
+    color: #fefb00 !important;
+    margin: 0px !important;
+    
+}
+#review-icon .overall-rating{
+    color: red /*#e7711b*/;
+    font-size: 20px;
+    text-align: left;
+}
+#google-review-header{
+    text-align:center;
+  /*  display: flex;*/
+    margin-left: 180px !important;
+    margin-right: 470px !important;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.star-rating{
+    display: flex !important;
+    color: #fefb00 !important;
+    
+}
+
+
+#business-name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+.slide {
+    padding: 20px 20px;
+}
+/*.slide > div, .slide > img{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.slide div span {
+    margin: auto !important;
+    text-align: center;
+}
+
+
+.review-photo img{
+    width: 100px;
+    height: 100px;
+}
+
+/*.columns{
+    padding: 0px 0px !important;*/
+}
+.review-name{
+    font-size: 23px;
+    font-family: "Oswald";
+    font-weight: normal;
+    color: white !important;
+    line-height: 1.5;
+}
+.review-date{
+    font-size: 12px;
+    font-family: "Libre Franklin",sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+}
+
+.review-text{
+    font-size: 16px;
+    font-family: "Libre Franklin",sans-serif;
+    color: #000000;/* #69727b;*/
+    line-height: 1.5;
+    padding: 20px;
+    background-color: rgba(255,255,255,.50) !important;
+    /* border: 1px solid #ededed !important;*/
+    position: relative!important;
+    margin-bottom: 30px;
+    min-height: 165px;
+}
+.drp-shadow{
+    box-shadow: 3px 3px 10px #ccc;
+}
+.review-text:before {
+    position: absolute!important;
+    bottom: -7px!important;
+    left: 35px!important;
+    display: block!important;
+    width: 14px!important;
+    height: 14px!important;
+    border-top: none!important;
+    border-left: none!important;
+    background-color: #fafafa!important;
+    content: "" !important;
+    -webkit-transform: rotate(45deg)!important;
+    -ms-transform: rotate(45deg)!important;
+    transform: rotate(45deg)!important;
+}
+.author-info.columns{
+    padding: 0px !important;
+    
+}
+.review-photo.desktop-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+}
+.column-1{
+    flex-basis: 120px;
+    padding: 20px;
+    
+}
+
+.column-2{
+    flex-grow: 1;
+}
+.flx-basis-60{
+    flex-basis: 140px !important;
+}
+.star-rating.desktop-center{
+    justify-content: center;
+}
+
+.review-photo.mobile-center{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+.star-rating.mobile-center{
+    justify-content: left;
+}
+.slick-prev:before, .slick-next:before {
+    color: #000000 /*!important*/;
+ }
+
+.slider.columns{
+    margin-left: 150px !important;
+    margin-right: 500px !important;
+    margin-top: 30px !important;
+    width: 250px;
+    color:white;
+}
+
+
+/* tablet */
+@media (max-width: 991px) {
+
+    .slide > div{
+        text-align: left;
+       
+    }
+    .slide > img{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+/* mobile landscape */
+@media (max-width: 767px) {
+    .author-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #review-icon{
+        max-width: 220px !important;
+        width: 220px !important;
+    }
+    #google-review-header{
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .star-rating{
+        display: flex !important;
+        color: #DAA520 !important;
+        margin: 20px 0px;
+        
+    }
+
+    #google-review-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+
+    #business-name{
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    .slide {
+        padding: 40px 20px;
+    }
+    .slide > div{
+        text-align: center;
+    }
+    .slide > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slide .star-rating{
+        justify-content: center;
+    }
+
+    .slide div span {
+        margin: auto !important;
+        text-align: center;
+    }
+
+
+    .review-photo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .columns{
+        padding: 40px 0px !important;
+       
+    }
+    .review-name{
+        margin-toP: 20px;
+        font-size: 23px;
+        font-family: "Oswald";
+        font-weight: normal;
+        color: #ffffff  !important;
+        /*#3d4246*/
+        line-height: 1.5;
+    }
+    .review-date{
+        font-size: 16px;
+        font-family: "Libre Franklin",sans-serif;
+        font-weight: bold;
+        color: #3d4246;
+        line-height: 1.5;
+    }
+
+    .review-text{
+        font-size: 16px;
+        font-family: "Libre Franklin",sans-serif;
+        color: #69727b;
+        line-height: 1.5;
+    }
+
+
+    .review-photo.desktop-center{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+
+    .star-rating.desktop-center{
+        justify-content: left;
+    }
+
+    .review-photo.mobile-center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .star-rating.mobile-center{
+        justify-content: center;
+    }
+
+}
+
+/* mobile portrait */
+@media (max-width: 479px) {
+        .author-info{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        #review-icon{
+            max-width: 220px !important;
+            width: 220px !important;
+        }
+        #google-review-header{
+            text-align:center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .star-rating{
+            display: flex !important;
+            color: #DAA520 !important;
+            margin: 20px 0px;
+            
+        }
+
+        #google-review-header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            
+        }
+
+        #business-name{
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+        .slide {
+            padding: 40px 20px;
+        }
+        .slide > div{
+            text-align: center;
+        }
+        .slide > img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .slide .star-rating{
+            justify-content: center;
+        }
+
+        .slide div span {
+            margin: auto !important;
+            text-align: center;
+        }
+
+
+        .review-photo img{
+            width: 100px;
+            height: 100px;
+        }
+
+        .columns{
+            padding: 40px 0px !important;
+        }
+        .review-name{
+            margin-toP: 20px;
+            font-size: 23px;
+            font-family: "Oswald";
+            font-weight: normal;
+            color: #ffffff !important /*#3d4246*/;
+            line-height: 1.5;
+        }
+        .review-date{
+            font-size: 16px;
+            font-family: "Libre Franklin",sans-serif;
+            font-weight: bold;
+            color: #3d4246;
+            line-height: 1.5;
+        }
+
+        .review-text{
+            font-size: 16px;
+            font-family: "Libre Franklin",sans-serif;
+            color: #69727b;
+            line-height: 1.5;
+        }
+
+
+        .review-photo.desktop-center{
+            display: block;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+
+        .star-rating.desktop-center{
+            justify-content: left;
+        }
+
+        .review-photo.mobile-center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        .star-rating.mobile-center{
+            justify-content: center;
+        }
+}
+
+#wrapper-bg{
+	background-image : url(../img/clouds.gif);
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+}
